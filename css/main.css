@@ -1,0 +1,214 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(303.1deg, rgba(0, 0, 0, 0.8) 0%, rgba(25, 25, 25, 0) 218.78%) no-repeat;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+a, span {
+  color: #fff;
+}
+
+p {
+  color: #A9A9A9;
+  font-size: 2vh;
+}
+
+h1 {
+  font-size: 6vh;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 4vh;
+}
+.container {
+  width: 92.5%;
+  height: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+/* First View*/
+
+.slider {
+  width: 55%;
+  position: absolute;
+}
+
+.slider__classic_kitchen {
+  background: url("../img/asolo.jpg") no-repeat;
+  width: 100vh;
+  height: 70vh;
+  margin-top: 16vh;
+  margin-left: 0;
+  position: absolute;
+  left: -72px;
+  display: block;
+}
+
+.slider__classic_kitchen:before {
+  content: 'Класична кухня';
+  display: block;
+  position: absolute;
+  width: 40vh;
+  height: 15vh;
+  left: 70vh;
+  top: 6vh;
+  background: rgba(0, 0, 0, 0.68);
+
+  font-weight: 700;
+  font-size: 4vh;
+  line-height: 1.3em;
+  color: #FFFFFF;
+  padding: 5vh 0 0 4vh;
+}
+
+.slider__classic_kitchen:before h2{
+  position: absolute;
+  width: 366px;
+  height: 122px;
+  left: 668px;
+  top: 211px;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 43px;
+
+  color: #FFFFFF;
+}
+
+.slider__decoration{
+  position: absolute;
+  width: 100vh;
+  height: 8vh;
+  left: -72px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25);
+}
+
+.slider__decorationsecond{
+  top:92vh;
+}
+
+/* Info Fixed*/
+.info {
+  margin-left: auto;
+  position: fixed;
+  right: 2%;
+  height: 100vh;
+}
+
+.info__logo {
+  height: 10%;
+  align-items: center;
+  padding: 0;
+}
+
+.info__logo h2 {
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#dom {
+  margin-left: 0;
+  color:#FFC700;
+}
+
+.info__main {
+  align-items: center;
+  height: 70%;
+}
+
+
+.info__text {
+  padding-top: 20vh;
+}
+
+.info__text h1,p  {
+  margin: 0;
+  padding: 0;
+}
+
+.secondinfo {
+  text-align: right;
+  width: 44vh;
+  margin-left: auto;
+  margin-top: 1vh;
+}
+.info__btns {
+  align-items: center;
+  height: 10%;
+}
+
+.call {
+  width: 20vh;
+  height: 6vh;
+  left: 1055px;
+  top: 671px;
+  background: #FFC700;
+  box-shadow: 0px 2px 20px rgba(255, 199, 0, 0.4);
+  border-radius: 100px;
+  border: none;
+  font-weight: 700;
+  font-size: 2vh;
+}
+
+.location {
+  width: 145px;
+  height: 42.78px;
+  left: 1296px;
+  top: 680px;
+  border: none;
+  background: #FFC700;
+  box-shadow: 0px 2px 20px rgba(255, 199, 0, 0.4);
+  border-radius: 100px;
+  margin-left: 8vh;
+  font-weight: 700;
+  font-size: 1.5vh;
+}
+
+.info__contacts {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  height: 10%;
+  font-size: 1.5vh;
+  align-items: center;
+  margin-left: auto;
+  width: 15vh;
+}
+
+.class {
+  background: #fff;
+  animation-name: fadeInUp;
+  animation-duration: 3s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
